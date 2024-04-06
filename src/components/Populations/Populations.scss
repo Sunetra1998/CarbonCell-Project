@@ -1,0 +1,39 @@
+.population-container {
+  width: 100%;
+  h2 {
+    text-align: center;
+    margin: 16px auto;
+    text-decoration: underline;
+  }
+  &_items {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    canvas {
+      width: 650px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 16px auto;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (width<=650px) {
+  .population-container {
+    padding: 8px;
+    &_items {
+      display: flex;
+      margin-bottom: 1rem;
+      flex-direction: column;
+      align-items: center;
+      canvas {
+        width: 300px !important;
+      }
+    }
+  }
+}

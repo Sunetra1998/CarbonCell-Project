@@ -1,0 +1,38 @@
+$main-bg-color: rgb(15, 23, 42);
+$secondary-bg-color: darkslategray;
+
+.bg-gray {
+  background-color: $secondary-bg-color;
+}
+
+.open {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: $main-bg-color;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  .sidebar-container {
+    width: 25%;
+    border: 1px solid gray;
+  }
+  .main-container-content {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+  }
+}

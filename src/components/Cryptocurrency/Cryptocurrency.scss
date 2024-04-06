@@ -1,0 +1,14 @@
+.main-crypto-container {
+  width: 100%;
+  h2 {
+    text-align: center;
+    margin: 24px auto;
+    text-decoration: underline;
+  }
+  .crypto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
